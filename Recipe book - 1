@@ -1,0 +1,217 @@
+food = input('Which recipe would you like to use? ')
+people = int(input('How many people would you like to feed? '))
+
+
+#pancake recipe
+if food.upper() == 'PANCAKES':
+   print('I would suggest multiplying the recipe by ' + str(people * .5))
+   pancake_quantity = float(input("What would you like to multiply this recipe by? "))
+   print(' ')
+   print('flour: ' + str(1.5 * pancake_quantity) + ' cups')
+   print('Baking powder: ' + str(3.5 * pancake_quantity) + ' teaspoons')
+   print('White sugar: ' + str(1 * pancake_quantity) + ' tablespoons')
+   print('milk: ' + str(pancake_quantity * 1.25) + ' cups')
+   print('eggs: ' + str(1 * pancake_quantity))
+   print('melted butter: ' + str(3 * pancake_quantity) + ' tablespoons')
+   print('salt: ' + str(pancake_quantity * .25) + ' teaspoons')
+   print(' ')
+   print('mix dry ingredients and the wet ingredients in separate bowls before combining.')
+   print(' ')
+   print('Scoop the batter directly onto a hot, oiled pan. Cook for 2-3 minutes on each side.')
+
+
+# chocolate chip cookies
+elif food.upper() == 'CHOCOLATE CHIP COOKIES':
+   print('I would suggest multiplying the recipe by ' + str(people * .25))
+   cookie_quantity = float(input('What would you like to multiply this recipe by? '))
+   print(' ')
+   print('Softened butter: ' + str(1 * cookie_quantity) + ' cups')
+   print('Granulated sugar: ' + str(1 * cookie_quantity) + 'cups')
+   print('Brown sugar: ' + str(cookie_quantity * 1) + ' cups')
+   print('Eggs: ' + str(cookie_quantity * 2))
+   print('Vanilla extract: ' + str(2 * cookie_quantity) + ' teaspoons')
+   print('Baking soda: ' + str(1 * cookie_quantity) + ' teaspoons')
+   print('Water: ' + str(cookie_quantity * 2) + ' teaspoons')
+   print('Salt' + str(cookie_quantity * .5) + ' teaspoons')
+   print('All-purpose flour: ' + str(cookie_quantity * 3) + ' cups')
+   print('Semisweet chocolate chips: ' + str(cookie_quantity * 2) + ' cups')
+   print('Chopped walnuts: ' + str(1 * cookie_quantity) + ' cups')
+   print('Oven should be preheated to 350 degrees.')
+   print(' ')
+   print('Mix the butter, sugar, and brown sugar together until it has a smooth consistency.')
+   print(' ')
+   print('Mix in the eggs one at a time, followed by the vanilla, baking soda, water, and salt.')
+   print(' ')
+   print('Lastly mix in the flour, chocolate chips and crushed walnuts.')
+   print(' ')
+   print('Form the dough into small golf ball sized balls.')
+   print(' ')
+   print('place the dough balls onto a baking sheet and bake for 10 minutes')
+
+
+# Stuffed Peppers recipe
+elif food.upper() == 'STUFFED PEPPERS':
+   print('I would suggest multiplying the recipe by ' + str(people * 0.5))
+   stuffed_peppers_quantity = float(input('What would you like to multiply the recipe by? '))
+   print(' ')
+   print('Bell peppers: ' + str(stuffed_peppers_quantity * 4))
+   print('Ground beef: ' + str(stuffed_peppers_quantity * 1) + ' pounds')
+   print('Chopped onions: ' + str(stuffed_peppers_quantity * 2) + ' tablespoons')
+   print('Pre-cooked rice: ' + str(stuffed_peppers_quantity * 1) + ' cups')
+   print('Salt: ' + str(stuffed_peppers_quantity * 1) + ' teaspoons')
+   print('Chopped garlic: ' + str(stuffed_peppers_quantity * 1) + ' cloves')
+   print('Tomato sauce: ' + str(stuffed_peppers_quantity * 15) + ' ounces')
+   print('Shredded Mozzarella: ' + str(stuffed_peppers_quantity * .75) + ' cups')
+   print(' ')
+   print('Oven should be preheated to 35 degrees.')
+   print(' ')
+   print('Cut a thin slice from the top of each pepper to remove the stem.')
+   print(' ')
+   print('Submerge the peppers in boiling water for about 2 minutes.')
+   print(' ')
+   print('Cook the ground beef and onions on a pan.')
+   print(' ')
+   print('Once the beef is cooked add the rice, salt, garlic, and tomato sauce and continue cooking.')
+   print(' ')
+   print('Scoop the mixture into peppers evenly.')
+   print(' ')
+   print('Bake the peppers for 25 minutes, once done, sprinkle the mozzarella cheese on top.')
+
+
+#Turkey Stuffing
+elif food.upper() == 'STUFFING':
+   print('I would recommend multiplying the recipe by ' + str(people * 0.25))
+   stuffing_quantity = int(input('What would you like to multiply the recipe by? '))
+   print(' ')
+   print('Bread, cut into cubes: ' + str(24 * stuffing_quantity) + ' ounces')
+   print('Unsalted, melted butter: ' + str(1 * stuffing_quantity) + ' cups')
+   print('Diced onions: ' + str(3 * stuffing_quantity) + ' cups')
+   print('Diced celery: ' + str(2 * stuffing_quantity) + ' cups')
+   print('Minced garlic cloves: ' + str(6 * stuffing_quantity))
+   print('Chopped sage: ' + str(3 * stuffing_quantity) + ' tablespoons')
+   print('Chopped parsley: ' + str(3 * stuffing_quantity) + ' tablespoons')
+   print('Chopped rosemary: ' + str(3 * stuffing_quantity) + ' tablespoons')
+   print('Chicken stock: ' + str(2.5 * stuffing_quantity) + ' cups')
+   print('Eggs: ' + str(2 * stuffing_quantity))
+   print(' ')
+   print('Preheat the oven to 350 degrees fahrenheit.')
+   print(' ')
+   print('Mix together, in a skillet, the butter, onion, celery, and garlic, along with a pinch of salt.')
+   print(' ')
+   print('Cook the mixture for about 8 to 10 minutes, or until the onions and celery are softened.')
+   print(' ')
+   print('After the mixture has cooked, ad in the sage, parsley, and rosemary, and ' + str(1 * stuffing_quantity))
+   print('cups of the chicken stock')
+   print(' ')
+   print('Pour the cooked mixture over the bread cubes, toss the mixture until the bead is well coated.')
+   print(' ')
+   print('In a separate bowl, mix the remaining chicken stock along with the eggs.')
+   print(' ')
+   print('Pour the egg and chicken stock mixture into the bread cubes and stir until all is well combined.')
+   print(' ')
+   print('Dump the mixture into a baking pan, and bake the stuffing for 45 to 50 minutes.')
+
+
+
+
+#French Toast
+elif food.upper() == 'FRENCH TOAST':
+   print('I would recommend multiplying the recipe by ' + str(people * 0.5))
+   french_toast_quantity = int(input('What would you like to multiply the recipe by? '))
+   print('Milk: ' + str(french_toast_quantity * .666) + ' cups')
+   print('Eggs: ' + str(french_toast_quantity * 2))
+   print('Vanilla extract: ' + str(1 * french_toast_quantity) + ' teaspoons')
+   print('Ground cinnamon: ' + str(french_toast_quantity * 0.25) + ' teaspoons')
+   print('Bread: ' + str(french_toast_quantity * 6) + ' slices')
+   print('Unsalted butter: ' + str(french_toast_quantity * 1.5) + ' tablespoons')
+   print(' ')
+   print('Whisk milk, eggs, vanilla, cinnamon together in a small bowl.')
+   print(' ')
+   print('Lightly butter a skillet and place over medium-high heat.')
+   print(' ')
+   print('Dunk each slice of bread into the egg mixture.')
+   print(' ')
+   print('Immediately place the bread slices onto the hot skilled, and cook 3-4 minutes per side.')
+
+
+
+
+#Brownies recipe
+elif food.upper() == 'BROWNIES':
+   print('I recommend multiplying the recipe by ' + str(6 * people))
+   brownies_quantity = int(input('what would you like to multiply the recipe by? '))
+   print('Granulated sugar: ' + str(1.5 * brownies_quantity) + ' cups')
+   print('All-purpose flour: ' + str(.75 * brownies_quantity) + ' cups')
+   print('Cocoa powder: ' + str(0.666 * brownies_quantity) + ' cups')
+   print('Powdered sugar: ' + str(0.5 * brownies_quantity) + ' cups')
+   print('Chocolate chips: ' + str(0.5 * brownies_quantity) + ' cups')
+   print('Salt: ' + str(.75 * brownies_quantity) + ' teaspoons')
+   print('Eggs: ' + str(2 * brownies_quantity))
+   print('Olive oil: ' + str(brownies_quantity * .5) + ' cups')
+   print('Water: ' + str(brownies_quantity * 2) + ' tablespoons')
+   print('Vanilla extract: ' + str(brownies_quantity * 0.5) + ' teaspoons')
+   print(' ')
+   print('Preheat the oven to 325 degrees fahrenheit.')
+   print(' ')
+   print('Combine the sugar, flour, cocoa powder, powdered-sugar, chocolate chips, and the salt.')
+   print(' ')
+   print('In a separate bowl mix together the eggs, olive oil, water, and vanilla.')
+   print(' ')
+   print('Combine the two mixtures, stir until fully combined.')
+   print(' ')
+   print('Pour the batter into a greased pan, and bake for 40 to 45 minutes.')
+
+
+
+
+#Guacamole recipe
+elif food.upper() == 'GUACAMOLE':
+   print('I would recommend multiplying the recipe by ' + str(people * 0.33333))
+   guacamole_quantity = int(input('What would you like to multiply this recipe by? '))
+   print(' ')
+   print('Mashed avocados: ' + str(guacamole_quantity * 3))
+   print('Juiced limes: ' + str(guacamole_quantity * 1))
+   print('Salt: ' + str(guacamole_quantity * 1) + ' teaspoons')
+   print('Diced plum tomatoes: ' + str(2 * guacamole_quantity))
+   print('Diced onions: ' + str(guacamole_quantity * 0.5) + ' cups')
+   print('Chopped cilantro: ' + str(guacamole_quantity * 3) + ' tablespoons')
+   print('Minced garlic: ' + str(1 * guacamole_quantity) + ' teaspoons')
+   print(' ')
+   print('Mash the avocados, lime juice, and salt together unto a paste.')
+   print(' ')
+   print('mix in the tomatoes, onion, cilantro, and garlic until all is well combined.')
+
+
+
+
+#Sloppy Joe recipe
+elif food.upper() == 'SLOPPY JOE':
+   print('I would recommend multiplying the recipe by ' + str(people * 0.25))
+   sloppy_joe_quantity = int(input('What would you like to multiply the recipe by? '))
+   print('Diced onions: ' + str(sloppy_joe_quantity * 1))
+   print('Diced bell peppers: ' + str(0.5 * sloppy_joe_quantity))
+   print('Worcestershire sauce: ' + str(1 * sloppy_joe_quantity) + ' tablespoons')
+   print('Mustard: ' + str(sloppy_joe_quantity * 1) + ' teaspoons')
+   print('Brown sugar: ' + str(sloppy_joe_quantity * 1) + ' tablespoons')
+   print('Tomato sauce: ' + str(15 * sloppy_joe_quantity) + ' ounces')
+   print('Ground beef: ' + str(sloppy_joe_quantity * 1) + ' pounds')
+   print('Olive oil: ' + str(sloppy_joe_quantity * 1) + ' tablespoons')
+   print('Salt: ' + str(sloppy_joe_quantity * 0.5) + ' teaspoons')
+   print('Garlic cloves: ' + str(sloppy_joe_quantity * 3))
+   print('Water: about ' + str(sloppy_joe_quantity * 0.25) + ' cups')
+   print(' ')
+   print('Combine the worcestershire sauce, mustard, brown sugar, and the tomato sauce.')
+   print(' ')
+   print('place the ground beef and olive oil onto a skillet on medium/high heat.')
+   print('Chop up the ground beef while it is cooking, and cook until fully browned (about 5 minutes)')
+   print(' ')
+   print('Add the vegetables into the cooking meat.')
+   print(' ')
+   print('Lastly add in the sauce, and let the mixture sit on a low heat for about 10 minutes.')
+   print(' ')
+   print('serve the mixture on hamburger buns.')
+
+
+else:
+   print('This recipe is not in your current list.')
+  
